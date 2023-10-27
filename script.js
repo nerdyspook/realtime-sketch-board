@@ -35,7 +35,6 @@ const dragAndDrop = (element, event) => {
 
   element.style.position = 'absolute';
   element.style.zIndex = 1000;
-  // document.body.append(ball);
 
   moveAt(event.pageX, event.pageY);
 
