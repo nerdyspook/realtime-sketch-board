@@ -15,15 +15,15 @@ let eraserFlag = false;
 
 const openTools = () => {
   let iconElement = optionsContainer.children[0];
-  iconElement.classList.remove('fa-times');
-  iconElement.classList.add('fa-bars');
+  iconElement.classList.remove('fa-bars');
+  iconElement.classList.add('fa-times');
   toolsContainer.style.display = 'flex';
 };
 
 const closeTools = () => {
   let iconElement = optionsContainer.children[0];
-  iconElement.classList.remove('fa-bars');
-  iconElement.classList.add('fa-times');
+  iconElement.classList.remove('fa-times');
+  iconElement.classList.add('fa-bars');
   toolsContainer.style.display = 'none';
   pencilToolsContainer.style.display = 'none';
   eraserToolsContainer.style.display = 'none';
